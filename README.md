@@ -17,6 +17,14 @@ the executable should be available as a shell command
 
 #usage
 to execute simple run game_info.py, use -h for usage
+-s to output to shell
+-p to define rest port
+-u to send the url from metacritic to parse
+
+available REST endpoints are:
+/
+/games
+/games/game_name
 
 #tests
 tests are run by py.test framework, to run install the dependecies on the txt and run:
